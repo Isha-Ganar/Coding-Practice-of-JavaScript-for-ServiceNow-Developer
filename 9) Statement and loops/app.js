@@ -37,12 +37,16 @@ switch (day) {
         break;
     case 2:
         day = "Today is tuesday"
+        break;
     case 3:
         day = "Today is Wednesday"
+        break;
     case 4:
         day = "Today is Thursday"
+        break;
     case 5:
         day = "Today is Friday"
+        break;
     default:
         text = "Its Weekend";
 }
