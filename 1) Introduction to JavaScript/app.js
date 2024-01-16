@@ -72,8 +72,10 @@ console.log('Unary Prefix Decrement -- operator =>', --a);
 console.log('Unary Postfix Increment ++ operator =>', a++);
 console.log('Unary Postfix Decrement -- operator =>', a--);
 console.log('Unary Typeof "typeof" operator =>', typeof y);
+
 var result = void 42; // returns undefined 
 console.log('Unary Void void operator =>',result);  
+
 var obj = { prop: "value", name: "Tom"};
 delete obj.prop;
 console.log('Unary Delete delete: operator =>', obj); // {} (property is deleted)

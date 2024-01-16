@@ -11,6 +11,7 @@ function add(a, b) {
 }
 console.log (add(7,9));
 
+
 ////callback functions
 function doSomethingAsync(callback) {
   setTimeout(function() {
@@ -25,3 +26,18 @@ function afterAsyncOperation() {
 
 // Usage
 doSomethingAsync(afterAsyncOperation);
+
+function DoIt(CBF)
+{
+  setTimeout(function(){
+    console.log("I am Priority");
+    CBF();
+  },3000);
+}
+
+function AnotherFunc(){
+  console.log("I am optional");
+}
+
+//Usage
+DoIt(AnotherFunc);
