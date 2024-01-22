@@ -25,9 +25,11 @@ mySort(myArr);
 function Average(arr){
 var sum = 0;
 for(i=0;i<arr.length;i++){
-    sum = sum + i
+    sum = sum + arr[i]
 }
+
 var avg = sum/(arr.length);
+
 console.log(avg);
 }
 
